@@ -11,7 +11,7 @@ private-key.pem
 certificate.pem
 
 node_modules
-dist
+
 dist-ssr
 *.local
 
