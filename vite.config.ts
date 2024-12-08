@@ -1,12 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    https: {
-      key: './private-key-no-pass.pem',
-      cert: './certificate.pem',
-    },
-  },
+  base: '/Free-QR-Code-Generator/', // Add your repository name here
 });
